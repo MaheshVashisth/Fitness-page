@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHI FITNESS</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url(IMG1.jpg);
+        background-size: cover;
+    }
+    .left{ position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+       
+
+    }
+    .left img{
+        width: 74px;
+    }
+    .mid{
+        display:block;
+        margin: 20px auto;
+        
+        width: 36%;
+        width: 46%;
+       
+    }
+    .right{
+        position: absolute;
+        right: 22px;
+        top: 32px;
+        display: inline-block;
+        
+    }
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size:25px;
+    }
+    .navbar li a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 34px 24px;
+        
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+        color: blanchedalmond;
+
+    }
+    .btn{
+        margin: 0 12px;
+        color: azure;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: brown; 
+
+    }
+    .container{
+        text-align: center;
+        margin-top: 34px;
+        margin-bottom: 34px;
+        margin-right: 34px;
+        margin-left: 400px;
+     padding: 34px;
+        border: 3px solid white;
+        width: 40%;
+        font-size: 40px;
+        border-radius: 40px;
+
+    }
+    .form-group{
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+        border-radius: 4px;
+        padding: 40px;
+        border: 3px solid beige;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+       
+        display: block;
+        margin:28px auto;
+        width: 30%;
+    }
+    input{
+        display: block;
+        width: 400px;
+        padding: 0 20px;
+        margin: 4px;
+    }
+    input,
+    input::placeholder{
+        font-size: 20px;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img2.png" alt="">
+            <div>mahi fitness</div>
+        </div>
+        <div class="mid" >
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>    
+        </div>
+    </header>
+    <div class="container">
+       <h1>Hello People</h1>
+       <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" placeholder="enter your name" size="29px" >
+            <input type="text" placeholder="enter your age" size="29px">
+            <input type="text" placeholder="enter your gender"size="29px">
+            <input type="text" placeholder="enter your location"size="29px">
+        </div>
+        <button class="btn">submit</button>
+       </form>
+    </div>
+    
+</body>
+</html>
